@@ -1,4 +1,4 @@
 FROM openjdk:11
+WORKDIR app/
 EXPOSE 8085
-COPY target/
-ENTRYPOINT ["java","-jar",""]
+ENTRYPOINT ["java","-jar","onlinebookstore"]
