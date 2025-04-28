@@ -1,4 +1,4 @@
 FROM openjdk:11
-EXPOSE
+EXPOSE 8085
 COPY target/
 ENTRYPOINT ["java","-jar",""]
